@@ -1,0 +1,65 @@
+#box{
+    width: 100%;
+    font-size: xx-large;
+    font-family: fantasy;
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 0px 4px gray;
+}
+body{
+    background-color: rgb(226, 220, 17);
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+.box{
+    height: 200px;
+    width: 40%;
+    border: 1px solid grey;
+    font-size: large;
+}
+.hi{
+    height: 500px;
+    width: 40%;
+    font-size:  x-large;
+    float: right;
+    background-image: url(https://media2.giphy.com/media/CtrnXiGISEYwM/giphy.gif);
+    font-family: fantasy;
+    text-align: center;
+}
+#box1{
+    background-color: blue;
+    font-family: fantasy;
+    text-align: center;
+}
+#box2{
+    background-color: red;
+    font-family: fantasy;
+    text-align: center;
+    float: right;
+}
+#box3{
+    background-color: grey;
+    font-family: fantasy;
+    text-align: center;
+}
+#box4:hover {
+    background-image: url(https://pbs.twimg.com/media/CodyZDPVUAQj8kZ.jpg:large);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+    font-size: xx-large;
+}
+
+#box5{
+    background-color: purple;
+    font-family: fantasy;
+    text-align: center;
+}
+#box6{
+    background-color: orange;
+    font-family: fantasy;
+    text-align: center;
+}

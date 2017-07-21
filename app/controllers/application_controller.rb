@@ -8,11 +8,14 @@ class ApplicationController < Sinatra::Base
   end
 
   get '/' do
-    erb :index
+    erb :homepage
   end
   
+  post '/quiz' do
+    erb :index  
+  end
   
-  post '/' do
+  post '/results' do
     value = params[:personality_choice]
     @answer1 = params[:answer1]
     @answer2 = params[:answer2]
